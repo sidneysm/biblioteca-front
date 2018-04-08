@@ -4,12 +4,6 @@
 #
 version: 2
 
-deployment:
-  prod:
-    branch: master
-    heroku:
-      appname: biblioteca-front
-
 jobs:
   build:
     docker:
