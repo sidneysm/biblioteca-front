@@ -43,11 +43,11 @@ jobs:
       # run tests!
       - run: yarn test
 
-      - deploy:
-        prod:
-          branch: master
-          heroku:
-            appname: biblioteca-front
+    deploy:
+      prod:
+        branch: master
+        heroku:
+          appname: biblioteca-front
 
 
 
